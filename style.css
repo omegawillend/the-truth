@@ -1,0 +1,86 @@
+body {
+      background-color: lightblue;
+}
+
+a, a:visited {
+ text-decoration: none;
+ font-weight: bold;
+ color: #013a63;
+}
+
+.resp {
+ font-weight: bold;
+ margin-left: 20px;
+}
+li {
+ margin-top: 10px;
+}
+.top {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top a.ri {
+  float:right;
+}
+.top a:hover {
+  background-color: #FDDA16;
+  color: black;
+}
+
+.letter {
+ width: 90%;
+ border: 1px solid grey;
+ background-color: white;
+ margin-left: 5%;
+ padding: 20px;
+}
+
+.caption {
+ margin-left: 7%;
+ font-style: italic;
+ font-size: 0.8em;
+}
+.capmin {
+ font-style: italic;
+ font-size: 0.8em;
+}
+
+.right {
+  width: 250px;
+  float: right;
+  position:absolute; 
+  right:0;
+  padding: 10px;
+}
+
+.left {
+   float: left;
+   margin-right: 265px;
+}
+
+img {
+  padding-top: 20px;
+}
+
+.gal {
+ column-width: 210px;
+}
+
+.backtop, .backtop a, .backtop a:visited {
+ text-decoration: none;
+ margin-left: 10px;
+ font-size: 0.9em;
+ padding-bottom: 10px;
+ color: #000;
+ font-family: courier;
+}
+
