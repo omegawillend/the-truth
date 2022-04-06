@@ -84,3 +84,13 @@ img {
  font-family: courier;
 }
 
+.header {
+  position: fixed;
+  top: 40;
+  color: red;
+  z-index: -99;
+  font-size: 5em;
+  opacity: 40%;
+  text-align: center;
+  width: 100%;
+}
