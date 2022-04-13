@@ -18,6 +18,7 @@ li {
 .top {
   overflow: hidden;
   background-color: #333;
+  width: 100%
 }
 
 .top a {
@@ -34,6 +35,18 @@ li {
 .top a:hover {
   background-color: #FDDA16;
   color: black;
+}
+
+.top .last {
+ color: #ccc;
+ font-style: italic;
+ text-align: center;
+ padding: 14px 16px; 
+ font-weight: normal;
+}
+.top .last:hover {
+ background-color:#333;
+ color: #ccc;
 }
 
 .letter {
