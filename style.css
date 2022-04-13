@@ -36,17 +36,22 @@ li {
   background-color: #FDDA16;
   color: black;
 }
+.gh {
+  overflow: hidden;
+  background-color: #fff;
+  opacity: 80%;
+  width: 100%;
+  font-size: 0.8em;
+  padding: 0; 
+}
+.gh a {
+ padding-left: 20px;
+}
 
-.top .last {
- color: #ccc;
+.gh .last {
  font-style: italic;
  text-align: center;
- padding: 14px 16px; 
  font-weight: normal;
-}
-.top .last:hover {
- background-color:#333;
- color: #ccc;
 }
 
 .letter {
@@ -99,7 +104,7 @@ img {
 
 .header {
   position: fixed;
-  top: 40;
+  top: 80;
   color: red;
   z-index: -99;
   font-size: 5em;
